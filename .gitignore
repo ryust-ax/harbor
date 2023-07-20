@@ -1,0 +1,29 @@
+# dependencies
+node_modules
+browsers
+
+# misc
+.git
+.env*
+!.env-template
+_!.*
+**/**/!.*
+coverage
+secrets.json
+notes.js
+*.log
+/pngs
+testing.xml
+codeceptjs.xml
+xunit.xml
+/**/output/
+/**/screenshots**
+/**/mochawesome**
+report*.json
+user_data/
+*sandbox/
+*/**/x-*
+allurectl
+
+# disabling for content
+case-list.txt
